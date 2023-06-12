@@ -22,12 +22,16 @@ export class App extends Component {
     });
   }
 
+  addUrl = (url) => {
+    this.setState({urls:this.state.urls.push(url)})
+  }
+
   render() {
     return (
       <main className="App">
         <header>
           <h1>URL Shortener</h1>
-          <UrlForm />
+          <UrlForm addUrl={this.addUrl}/>
         </header>
 
         <UrlContainer urls={this.state.urls}/>
