@@ -1,6 +1,6 @@
-[
-  {
-    "long_url": "https://images.unsplash.com/photo...",
-    "title": "This is a post test"
-  }
-]
+{
+  "long_url": "https://thisisatest.com",
+  "title": "this is a post test",
+  "id": 9,
+  "short_url": "http://localhost:3001/useshorturl/9"
+}
