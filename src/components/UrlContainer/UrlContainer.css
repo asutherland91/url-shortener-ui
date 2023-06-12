@@ -4,4 +4,19 @@
   margin: 10px;
   padding: 5px;
   background-color: #FFF;
+  width: 20em;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em
+}
+
+p {
+  inline-size: 19em;
+    overflow-wrap: break-word;
 }
