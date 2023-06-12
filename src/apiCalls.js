@@ -7,12 +7,12 @@ export const postUrls = (url, title) => {
   return fetch('http://localhost:3001/api/v1/urls', {
     method: "POST",
     headers: {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
     },
-    body: {
+    body: JSON.stringify({
       long_url: url,
       title: title
-    }
+    })
   })
   .then(response  => response.json());
     
