@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "long_url": "https://images.unsplash.com/photo...",
+    "short_url": "http://localhost:3001/useshorturl/2",
+    "title": "This is a test"
+  },
+  {
+    "id": 2,
+    "long_url": "https://images.unsplash.com/photo...",
+    "short_url": "http://localhost:3001/useshorturl/2",
+    "title": "This is a test 2"
+  }
+]
