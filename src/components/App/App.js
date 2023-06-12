@@ -23,7 +23,7 @@ export class App extends Component {
   }
 
   addUrl = (url) => {
-    this.setState({urls:this.state.urls.push(url)})
+    this.setState({urls: [...this.state.urls, url]})
   }
 
   render() {
